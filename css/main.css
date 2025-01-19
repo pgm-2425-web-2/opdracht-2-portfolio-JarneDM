@@ -49,3 +49,18 @@ body {
   font-weight: bolder;
   text-decoration: underline 3px;
 }
+
+.squares {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.square {
+  transition: transform 800ms;
+}
+
+.square:hover {
+  cursor: pointer;
+  transform: rotate(-60deg);
+  transition: 800ms;
+}
