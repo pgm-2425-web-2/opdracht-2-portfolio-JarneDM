@@ -24,6 +24,29 @@ body {
   list-style: none;
 }
 
+.image {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+.blur {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  height: 35vh;
+  width: 35vh;
+  z-index: 2;
+  border-radius: 50%;
+  top: 10%;
+  left: 48%;
+  right: 50%;
+  transform: translate(-50%);
+}
+
+.blur:hover {
+  display: none;
+}
+
 .over {
   display: grid;
   justify-content: center;
@@ -82,6 +105,15 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+}
+
+.contact h2 {
+  height: auto;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .form {
