@@ -56,8 +56,6 @@ body {
   .header-text h1 {
     font-size: 7rem;
     line-height: 6rem;
-    margin-top: 3rem;
-    margin-bottom: 19rem;
   }
 
   .header-text p {
@@ -67,6 +65,29 @@ body {
   .image {
     display: flex;
     justify-content: right;
+  }
+}
+
+.name {
+  .firstname {
+    transition: transform 500ms;
+  }
+
+  .lastname {
+    transition: transform 500ms;
+  }
+}
+
+.name:hover {
+  cursor: pointer;
+  .firstname {
+    transform: rotate(-40deg);
+    transition: 300ms;
+  }
+
+  .lastname {
+    transform: rotate(40deg);
+    transition: 300ms;
   }
 }
 
@@ -281,7 +302,7 @@ body {
   writing-mode: horizontal-tb;
   grid-column: span 1;
   grid-row: span 1;
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
   color: white;
   font-size: 20px;
   text-align: center;
@@ -316,8 +337,7 @@ body {
   }
 
   .sidebar {
-    writing-mode: vertical-rl;
-    font-size: 24px;
+    font-size: 50px;
   }
 }
 
