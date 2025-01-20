@@ -92,7 +92,7 @@ body {
 }
 
 .blur:hover {
-  display: none;
+  opacity: 0;
 }
 
 .over {
