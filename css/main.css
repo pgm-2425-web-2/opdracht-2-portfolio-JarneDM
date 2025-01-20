@@ -52,15 +52,72 @@ body {
 
 .squares {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
 }
 
 .square {
-  transition: transform 800ms;
+  transition: transform 500ms;
 }
 
 .square:hover {
   cursor: pointer;
   transform: rotate(-60deg);
-  transition: 800ms;
+  transition: 500ms;
+}
+
+.kennis {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kennis label {
+  font-size: 0.8rem;
+}
+
+.contact {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  width: 20rem;
+}
+
+.input {
+  border: 1px solid black;
+  height: 2rem;
+}
+
+.input::placeholder {
+  color: grey;
+  font-size: 0.7rem;
+}
+
+.input {
+  font-size: 0.9rem;
+}
+
+.send-button {
+  background-color: black;
+  color: white;
+  border: 0;
+  height: 2rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
