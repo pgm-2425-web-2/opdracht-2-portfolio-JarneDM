@@ -20,8 +20,17 @@ body {
   padding: 0;
 }
 
-.navbar li {
+.navbar a {
   list-style: none;
+  text-decoration: none;
+  color: black;
+  transition: transform 500ms;
+}
+
+.navbar a:hover {
+  text-decoration: overline;
+  transform: scale(1.1);
+  transition: transform 300ms ease-in-out;
 }
 
 .image {
