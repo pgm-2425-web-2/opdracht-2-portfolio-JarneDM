@@ -22,7 +22,137 @@
         </ul>
     </nav>
 
-    <main>
+    <div class="desktop">
+        <section class="header">
+
+            <div class="header-text">
+                <h1>Jarne <br>De Meyer</h1>
+
+                <p>Student graduaat programmeren</p>
+            </div>
+
+            <div class="blur"></div>
+
+            <img class="image" src="./images/me.jpg" alt="">
+        </section>
+
+        <section class="over">
+            <div>
+                <h2>OVER</h2>
+                <h2>OVER</h2>
+                <h2>OVER</h2>
+                <h2>OVER</h2>
+                <h2>OVER</h2>
+                <h2>OVER</h2>
+            </div>
+
+            <p>
+                Ik ben een enthousiaste student met een grote passie voor programmeren en technologie. Ik leg vooral de
+                focus op <span>JavaScript</span> en het magische erachter (back-end development) bij websites. In mijn
+                vrije
+                tijd
+                vind ik het heel leuk om aan persoonlijke projecten te werken. Zo maak ik allerlei soorten browsergames
+                en vind ik het geweldig om op creatieve en technisch vlak DiscordBots te maken. Hierin kan ik mijn
+                skills blijven vergroten en kan ik mijn probleemoplossend vermogen en creativiteit kwijt.
+            </p>
+
+            <!-- <br> -->
+        </section>
+
+        <section class="kennis">
+            <h2>Kennis</h2>
+
+            <div>
+                <label>HTML</label>
+                <div class="squares">
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                </div>
+            </div>
+            <div>
+                <label>CSS</label>
+                <div class="squares">
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                </div>
+            </div>
+            <div>
+                <label>JavaScript</label>
+                <div class="squares">
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                    <div class="square">&#9632;</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="portfolio-grid">
+                <div class="item watch">
+                    <img src="./images/image6.jpg" alt="">
+                </div>
+                <div class="item setup">
+                    <img src="./images/image2.jpg" alt="">
+                </div>
+                <div class="item app">
+                    <img src="./images/image3jpg.jpg" alt="">
+                </div>
+                <div class="item app2">
+                    <img src="./images/image4.jpg" alt="">
+                </div>
+                <div class="item sidebar">Portfolio</div>
+                <div class="item laptop">
+                    <img src="./images/image1.jpg" alt="">
+                </div>
+                <div class="item app3">
+                    <img src="./images/image5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contacteer ons</h2>
+            <form class="form" action="">
+                <label for="name">Naam</label>
+                <input placeholder="Name" type="text" id="name" class="input name">
+
+                <label for="mail">Email</label>
+                <input placeholder="example@example.com" type="text" id="mail" class="input mail">
+
+                <label for="reason">Reden</label>
+                <select name="reason" id="reason" class="input">
+                    <option selected value="">-- Geef reden</option>
+                    <option value="samen-werking">Samen werking</option>
+                    <option value="vraag">Vraag</option>
+                </select>
+
+                <label for="message">Bericht</label>
+                <input placeholder="Jou bericht" type="text" id="message" class="input message">
+
+                <button class="send-button">Verzenden</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>&#169; Arteveldehogescool</p>
+        </footer>
+    </div>
+
+    <div class="mobile">
         <section class="header">
 
             <div class="blur"></div>
@@ -89,6 +219,32 @@
             </div>
         </section>
 
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="portfolio-grid">
+                <div class="item watch">
+                    <img src="./images/image6.jpg" alt="">
+                </div>
+                <div class="item setup">
+                    <img src="./images/image2.jpg" alt="">
+                </div>
+                <div class="item app">
+                    <img src="./images/image3jpg.jpg" alt="">
+                </div>
+                <div class="item app2">
+                    <img src="./images/image4.jpg" alt="">
+                </div>
+                <div class="item sidebar">Portfolio</div>
+                <div class="item laptop">
+                    <img src="./images/image1.jpg" alt="">
+                </div>
+                <div class="item app3">
+                    <img src="./images/image5.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
         <section class="contact">
             <h2>Contacteer ons</h2>
             <form class="form" action="">
@@ -115,7 +271,7 @@
         <footer class="footer">
             <p>&#169; Arteveldehogescool</p>
         </footer>
-    </main>
+    </div>
 </body>
 
 </html>
